@@ -1,0 +1,25 @@
+public class App {
+ 
+    public static void main(String[] args) throws Exception {
+
+        Student chr = new Student();
+
+        chr.lastName = "Villena";
+        chr.firstName = "Marielle Kyla";
+        chr.middleInitial = "E";
+        chr.dateOfBirth = "November 4, 2003";
+        chr.studentEmailAddress = "villename@students.national-u.edu.ph";
+        chr.studentNumber = 2022104645;
+        chr.iAmAwesome = true;
+
+        chr.sayMyStudentNumber();
+        chr.sayMyEmailAddress();
+        chr.iAmAwesome();
+        
+
+    
+
+       
+
+    }
+}
